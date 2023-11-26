@@ -1,0 +1,321 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'pappins', sans-serif;
+	
+}
+
+
+.pro{
+	
+	width: 100%;
+	height: 100vh;
+	
+		
+}
+
+
+.ace{
+	font-size:30px;
+	align-items: center;
+	justify-content: center;
+	text-align: center; 
+	
+	
+}
+.problem{
+
+	color: rgb(255, 0, 0);
+	font-size: 20px;
+	text-decoration: none;
+	margin: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition:0.5s;
+	position: relative;
+}
+
+.text{
+	float: center;
+	width: 200px;
+	height: 100px;
+	position: absolute;
+	left:25%;
+	top:45%;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	margin-right:300px;
+	margin-left: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	color: black;
+	font-size: 24px;
+	font-weight: 900;
+	text-align: center;
+	border-radius: 3px;
+	
+	
+	
+}
+
+.hint{
+	font-size: 20px;
+	position:absolute;
+	left:48%;
+	top:70%;
+	background-color: #d2d2d2;
+	justify-content: center;
+	
+	
+}
+#hint{
+	font-size: 20px;
+	width:100%;
+	position:absolute;	
+	top:75%;
+	text-align: center;
+	
+}
+.correct{
+	font-size: 25px;
+	position: absolute;
+	left:60%;
+	top:50%;
+	background:transparent;
+}
+.surren {
+	font-size: 20px;
+	position: absolute; right: 0px; bottom: 0px;
+	width: 200px;
+	height: 60px;
+	color: #fff;
+	background: #000;
+	font-size: 18px;
+	text-decoration: none;
+	margin: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition:0.5s;
+	
+}
+.surren span {
+	margin-left: 10px;
+	width: 0;
+	overflow: hidden;
+	transition: 0.5s;
+}
+
+.surren:hover span{
+	width: 30px;
+	
+	
+}
+	
+	
+.a{
+	font-size:30px;
+	position: relative;
+	text-align : center;
+  	padding : 100px 0;
+
+}
+.b{
+	font-size:30px;
+	position: relative;
+	top:10%;
+	text-align : center;
+  	padding : 100px 0;
+
+}
+.next1{font-size: 20px;
+	position: absolute; 
+	left:40.5%;
+	top:50%;
+	width: 200px;
+	height: 60px;
+	color: #fff;
+	background: #000;
+	font-size: 18px;
+	text-decoration: none;
+	margin: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition:0.5s;
+	
+}
+.next1 span {
+	margin-left: 10px;
+	width: 0;
+	overflow: hidden;
+	transition: 0.5s;
+}
+
+.next1:hover span{
+	width: 30px;
+	
+}	
+.next{font-size: 20px;
+	position: absolute; 
+	left:60%;
+	top:50%;
+	width: 200px;
+	height: 60px;
+	color: #fff;
+	background: #000;
+	font-size: 18px;
+	text-decoration: none;
+	margin: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition:0.5s;
+	
+}
+.next span {
+	margin-left: 10px;
+	width: 0;
+	overflow: hidden;
+	transition: 0.5s;
+}
+
+.next:hover span{
+	width: 30px;
+	
+}
+.re{font-size: 20px;
+	position: absolute; 
+	left:20%;
+	top:50%;
+	width: 200px;
+	height: 60px;
+	color: #fff;
+	background: #000;
+	font-size: 18px;
+	text-decoration: none;
+	margin: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition:0.5s;
+	
+}
+.re span {
+	margin-left: 10px;
+	width: 0;
+	overflow: hidden;
+	transition: 0.5s;
+}
+
+.re:hover span{
+	width: 30px;
+	
+}
+
+#main {
+width: 100%; 
+margin:0 auto;
+animation: fadein 5s ease 3s;
+  -webkit-animation: fadein 3s; 
+}
+#main img{
+  width: 30%;
+  position: absolute;
+  left:35%;
+  top:-1.9%; 
+  
+}
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadein { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+#main2 {
+width: 100%; 
+margin:0 auto;
+animation: fadein 5s ease 3s;
+  -webkit-animation: fadein 3s; 
+}
+#main2 img{
+  width: 30%;
+  position: absolute;
+  left:35%;
+  top:-5%; 
+  
+}
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadein { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.clear {
+	font-size:30px;
+	position: relative;
+	text-align : center;
+  	padding : 100px 0;
+
+}
+#clear {
+width: 100%; 
+margin:0 auto;
+animation: fadein 5s ease 3s;
+  -webkit-animation: fadein 3s; 
+}
+#clear img{
+  width: 30%;
+  position: absolute;
+  left:35%;
+  top:-5%; 
+  
+}
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadein { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}	
+	
+
+
+
+

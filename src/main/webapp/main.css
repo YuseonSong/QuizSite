@@ -1,0 +1,100 @@
+html, body {cursor: url(media/rice.png), url(media/rice.jpg), auto
+}
+
+body {
+	
+	background-color: rgb(253, 254, 255);
+}
+
+
+#wrapper {
+	width: 100%;	
+}
+
+header {
+	background-image: url(photo/quizz.png);
+  	background-size: 50% 180px; /* 요소를 비율에 맞게 커버 */
+ 	background-position: center; /* 이미지를 요소의 정가운데로 처리 */
+ 	background-repeat: no-repeat;
+ 	
+  	width: 100%;
+	height: 180px;	
+	margin-top: auto;
+	
+
+	
+}
+
+header nav.login {
+	float: right;
+	width: 70%;
+	margin-top: 1px;
+}
+
+nav.login ul {
+	list-style-type: none;
+	margin-top: 0px;
+	float: right;
+}
+
+nav.login ul li {
+	display: inline;
+	float: left;
+	font-weight: bold;
+	margin: 10px;
+	margin-top: 0px;
+	font-size: 18px;
+}
+
+nav.login ul li a {
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+}
+
+header nav.home {
+	float: left;
+	width: auto;
+	margin-top: 110px;
+}
+
+nav.home ul {
+	list-style-type: none;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+nav.home ul li {
+	display: inline;
+	float: left;
+	font-weight: bold;
+	margin: 15px;
+	margin-top: 0px;
+	font-size: medium;
+}
+
+nav.home ul li a {
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+}
+
+
+footer {
+	clear: both;
+	margin-bottom: 1px;
+	text-align: center;
+}
+
+footer ul {
+	list-style-type: none;
+	float: center;
+}
+
+footer ul li {
+	display: inline;
+	margin: 20px;
+}
+
+footer ul li a:link {
+	color: black;
+	text-decoration-line: none;
+}
